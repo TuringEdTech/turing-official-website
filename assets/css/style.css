@@ -77,7 +77,7 @@ fieldset {
 }
 /*START PRELOADER DESIGN*/
 .preloader {
-    background:#0f1218e8;
+    background: #212327;;
     bottom: 0;
     left: 0;
     position: fixed;
@@ -171,7 +171,7 @@ margin: auto;
 /*END SECTION TITLE DESIGN*/
 /*START SCROLL TO TOP*/
 .topcontrol {
-background: #f54291 none repeat scroll 0 0;
+background: #e85d04 none repeat scroll 0 0;
 border-radius: 30px;
 bottom: 5px;
 box-shadow:0 0 10px rgba(0, 0, 0, 0.08);
@@ -348,7 +348,7 @@ color: #fff!important;
 * ----------------------------------------------------------------------------------------
 */
 .home_bg {
-    height: 800px;
+    height: 700px;
     position: relative;
 }
 @media only screen and (max-width:768px) { 
@@ -430,6 +430,61 @@ color:#1d293e;
 border: 2px solid #fff;
 }
 
+.float_lang{
+	
+}
+
+.float_btn{
+	z-index: 1000;
+	background:#f54291;
+	border: 2px solid #f54291;
+	border-bottom-left-radius: 5000px;
+	border-top-left-radius: 5000px;
+	color: #fff;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 600;
+	overflow: hidden;
+	
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
+	text-transform: capitalize;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+@media only screen and (max-width:360px) { 
+	.float_btn {padding: 10px 40px;}
+	}
+	.float_btn:hover{
+	background:#fff;
+	color:#1d293e;
+	border: 2px solid #fff;
+}
+
+
+.contact_btn {
+	background:#f54291;
+	border: 2px solid #f54291;
+	border-radius: 5000px;
+	color: #fff;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 600;
+	overflow: hidden;
+	padding: 10px 45px;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
+	text-transform: capitalize;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	}
+	@media only screen and (max-width:360px) { 
+	.contact_btn {padding: 10px 40px;}
+	}
+	.contact_btn:hover{
+	background:#fff;
+	color:#1d293e;
+	border: 2px solid #fff;
+	}
+
 .video-play {
 background: #f54291;
 border: 2px solid #f54291;
@@ -497,6 +552,7 @@ padding-top:0px;
 padding-bottom:60px;
 }
 .about-title {
+	color:white;
 	width: 80%;
 	margin: auto;
 	margin-bottom: 60px;
@@ -880,7 +936,7 @@ opacity: 1;
 	bottom: -100%;
 	padding: 30px;
 	padding-bottom: 0px;
-	background:#3b7eff;
+	background:#e85d04;
 	transition: all 0.3s ease-in-out;
 }
 .single_team:hover .team-hover {
@@ -932,7 +988,7 @@ width: 100%;
 	color: #fff;
 }
 .team-name {
-	background:#3b7eff;
+	background:#e85d04;
 	bottom: 0;
 	color: #fff;
 	font-size: 16px;
@@ -973,14 +1029,14 @@ width: 100%;
 	background: #fff;
 	transition:0.3s;
 }
-.single_testimonials:hover{background: #3b7eff;}
+.single_testimonials:hover{background: #e85d04;}
 .single_testimonials_img {
 	overflow: hidden;
 	margin-bottom: 20px;
 	border-bottom: 1px solid #eee;
 	padding-bottom: 15px;
 }
-.single_testimonials:hover .single_testimonials_img{border-bottom: 1px solid #4c89ff;}
+.single_testimonials:hover .single_testimonials_img{border-bottom: 1px solid #e85b04e3;}
 .single_testimonials_img img {
 	width: 90px;
 	height: 90px;
@@ -1219,7 +1275,7 @@ transition: all 0.3s ease 0s;
 	position: absolute;
 	left: 10%;
 	top: 42%;
-	background: #3b7eff;
+	background: #ff6200;
 	padding: 3px 15px;
 	border-radius: 4px;
 	color: #fff;
@@ -1241,7 +1297,7 @@ transition: all 0.3s ease 0s;
 	padding-right: 20px;
 }
 .single_blog h2 a{color:#333;}
-.single_blog h2 a:hover{color:#3b7eff;}
+.single_blog h2 a:hover{color:#ff6200;}
 .single_blog span {
 	text-transform: capitalize;
 	padding-left: 30px;
@@ -1249,7 +1305,7 @@ transition: all 0.3s ease 0s;
 	display: inline-block;
 	font-weight: 600;
 }
-.single_blog span a{color:#3b7eff;}
+.single_blog span a{color:#ff6200;}
 /*
 * ----------------------------------------------------------------------------------------
 * 13.END BLOG DESIGN
@@ -1296,14 +1352,22 @@ margin-bottom:30px;
 margin-right:0px;
 }
 }
-.single_download a:hover{box-shadow:none;}
+.single_download a:hover{
+	background: transparent;
+}
+.single_download a:hover h4{
+	color:#fff;
+}
+.single_download a:hover h5{
+	color:#fff;
+}
 .download-active{background:#fff;}
 .single_download a i {
 	float: left;
 	font-size: 30px;
 	margin-right: 10px;
 	margin-top: 3px;
-	color:#3b7eff;	
+	color:#ff6e14;	
 }
 .single_download h5 {
 	overflow: hidden;
