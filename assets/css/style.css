@@ -532,7 +532,10 @@ text-align:center;
 * 04.START ABOUT US + FEATURE DESIGN
 * ----------------------------------------------------------------------------------------
 */
-.partner{}
+.partner-logo{
+	background-color: #3f4459;
+	padding-bottom: 6rem;
+}
 .about-us {
 position: relative;
 padding-bottom: 60px;
