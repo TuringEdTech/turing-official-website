@@ -536,6 +536,15 @@ text-align:center;
 	background-color: #3f4459;
 	padding-bottom: 6rem;
 }
+.partner{
+	display: flex;
+	
+}
+.partner a img{
+	margin-top: 10rem;
+	align-items: center;
+	justify-content: center;
+}
 .about-us {
 position: relative;
 padding-bottom: 60px;
