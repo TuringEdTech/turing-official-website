@@ -561,6 +561,9 @@ padding-bottom:60px;
 	font-size: 26px;
 }
 .about_feature {
+	background-image: url(../img/bg/service-1.png);
+	background-size:cover;
+	background-position: center bottom;
 	background: #fff;
 	height: 300px;
 	margin: 20px 0;
@@ -581,7 +584,7 @@ transform: translate(0, -10px);
 .about_feature3:hover{background:#7e0cf5;}
 .about_feature4:hover{background:#35ac39;}
 .icon {
-	background: #3b7eff;
+	/* background: #3b7eff; */
 	border-radius: 100px;
 	box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
 	color: #fff;
